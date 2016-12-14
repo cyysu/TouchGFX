@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="4.0">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDLTouchController.cpp" />
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL.cpp" />
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL_icon.cpp" />
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\OSWrappers.cpp" />
+    <ClCompile Include="..\..\gui\src\animated_graphics_screen\AnimatedGraphicsPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\animated_graphics_screen\AnimatedGraphicsView.cpp" />
+    <ClCompile Include="..\..\gui\src\animated_graphics_screen\BumpMapImage.cpp" />
+    <ClCompile Include="..\..\gui\src\chrom_art_screen\ChromArtPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\chrom_art_screen\ChromArtView.cpp" />
+    <ClCompile Include="..\..\gui\src\common\DotIndicator.cpp" />
+    <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp" />
+    <ClCompile Include="..\..\gui\src\home_automation_screen\HomeAutomationPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\home_automation_screen\HomeAutomationView.cpp" />
+    <ClCompile Include="..\..\gui\src\home_automation_screen\JogWheel.cpp" />
+    <ClCompile Include="..\..\gui\src\home_automation_screen\TemperatureMenuItem.cpp" />
+    <ClCompile Include="..\..\gui\src\home_automation_screen\TemperatureScheduleMenuItem.cpp" />
+    <ClCompile Include="..\..\gui\src\home_automation_screen\TemperatureSlider.cpp" />
+    <ClCompile Include="..\..\gui\src\live_data_display_screen\CityInfo.cpp" />
+    <ClCompile Include="..\..\gui\src\live_data_display_screen\LiveDataDisplayPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\live_data_display_screen\LiveDataDisplayView.cpp" />
+    <ClCompile Include="..\..\gui\src\live_data_display_screen\WeekInfo.cpp" />
+    <ClCompile Include="..\..\gui\src\menu_screen\AnimatedGraphicsTile.cpp" />
+    <ClCompile Include="..\..\gui\src\menu_screen\ChromArtTile.cpp" />
+    <ClCompile Include="..\..\gui\src\menu_screen\HomeAutomationTile.cpp" />
+    <ClCompile Include="..\..\gui\src\menu_screen\LiveDataDisplayTile.cpp" />
+    <ClCompile Include="..\..\gui\src\menu_screen\MenuPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\menu_screen\MenuView.cpp" />
+    <ClCompile Include="..\..\gui\src\model\Model.cpp" />
+    <ClCompile Include="..\..\simulator\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\assets\fonts\Asap-Regular.ttf" />
+    <None Include="..\..\assets\fonts\RobotoCondensed-Regular.ttf" />
+    <None Include="..\..\assets\fonts\SourceSansPro-Regular.ttf" />
+    <None Include="..\..\assets\images\AnimatedGraphics\animated_graphics_back_button.png" />
+    <None Include="..\..\assets\images\AnimatedGraphics\animated_graphics_back_button_pressed.png" />
+    <None Include="..\..\assets\images\AnimatedGraphics\light_effect_image.bmp" />
+    <None Include="..\..\assets\images\ChromArt\chrom_art_background.png" />
+    <None Include="..\..\assets\images\ChromArt\chrom_art_clouds.png" />
+    <None Include="..\..\assets\images\ChromArt\chrom_art_off_button.png" />
+    <None Include="..\..\assets\images\ChromArt\chrom_art_on_button.png" />
+    <None Include="..\..\assets\images\ChromArt\chrom_art_sun.png" />
+    <None Include="..\..\assets\images\ChromArt\layer_button.png" />
+    <None Include="..\..\assets\images\ChromArt\layer_button_pressed.png" />
+    <None Include="..\..\assets\images\ChromArt\st_logo.png" />
+    <None Include="..\..\assets\images\ChromArt\touchGFX_logo.png" />
+    <None Include="..\..\assets\images\HomeAutomation\exit_button.png" />
+    <None Include="..\..\assets\images\HomeAutomation\exit_button_pressed.png" />
+    <None Include="..\..\assets\images\HomeAutomation\schedule_button.png" />
+    <None Include="..\..\assets\images\HomeAutomation\schedule_button_pressed.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_adjust_button.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_adjust_button_pressed.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_cancel_button.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_cancel_button_pressed.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_jogwheel.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_menu_item.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_menu_item_selected.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_menu_top_day_night.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_menu_top_extended.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_ok_button.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_ok_button_inactive.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_ok_button_pressed.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_schedule_button_selected.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_schedule_menu_item.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_schedule_menu_item_selected.png" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_slider.bmp" />
+    <None Include="..\..\assets\images\HomeAutomation\temperature_slider_knop.png" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_background_1.bmp" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_background_2.bmp" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_background_3.bmp" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_background_ending_1.png" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_dot_normal.png" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_dot_selected.png" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_small_icon_cloud.png" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_small_icon_shower.png" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_small_icon_sun.png" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_small_icon_sun_bigcloud.png" />
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_small_icon_thunder.png" />
+    <None Include="..\..\assets\images\Menu\background_bottom.png" />
+    <None Include="..\..\assets\images\Menu\background_top.png" />
+    <None Include="..\..\assets\images\Menu\menu_item_animated_graphics.png" />
+    <None Include="..\..\assets\images\Menu\menu_item_chrom_art.png" />
+    <None Include="..\..\assets\texts\texts.xlsx" />
+    <None Include="..\..\config\msvs\Application.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\driver\touch\SDLTouchController.hpp" />
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\hal\simulator\sdl\HALSDL.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\animated_graphics_screen\AnimatedGraphicsPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\animated_graphics_screen\AnimatedGraphicsView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\animated_graphics_screen\BumpMap.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\animated_graphics_screen\BumpMapImage.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\chrom_art_screen\ChromArtPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\chrom_art_screen\ChromArtView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\DotIndicator.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendHeap.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\HomeAutomationPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\HomeAutomationView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\JogWheel.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\TemperatureMenuItem.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\TemperatureScheduleMenuItem.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\TemperatureSlider.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\live_data_display_screen\CityInfo.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\live_data_display_screen\LiveDataDisplayPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\live_data_display_screen\LiveDataDisplayView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\live_data_display_screen\WeekInfo.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\AnimatedGraphicsTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\ChromArtTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\HomeAutomationTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\LiveDataDisplayTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\MenuPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\MenuView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\Tile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\Model.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\RoomTemperatureInfo.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\Time.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(TouchGFXReleasePath)\config\TouchGFX.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{83E10B27-C092-432D-887C-1E63190FDC30}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Application</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\config\msvs\Application.props" />
+    <Import Project="$(TouchGFXReleasePath)\config\msvs\touchgfx.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\config\msvs\Application.props" />
+    <Import Project="$(TouchGFXReleasePath)\config\msvs\touchgfx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\build\$(Configuration)\bin\</OutDir>
+    <IntDir>..\..\build\$(Configuration)\obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\build\$(Configuration)\bin\</OutDir>
+    <IntDir>..\..\build\$(Configuration)\obj\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>4355;4457;4458;4459</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <DisableSpecificWarnings>4355;4457;4458;4459</DisableSpecificWarnings>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL.dll $(OutDir)
+copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL_image.dll $(OutDir)
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL.dll $(OutDir)
+copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL_image.dll $(OutDir)
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(TouchGFXReleasePath)\config\msvs\touchgfx_prebuild.targets" />
+  </ImportGroup>
+</Project>

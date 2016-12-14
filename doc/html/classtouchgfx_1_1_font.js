@@ -1,0 +1,28 @@
+var classtouchgfx_1_1_font =
+[
+    [ "StringWidthFunctionPointer", "classtouchgfx_1_1_font.html#a79e774d8be0fb1fdebee1923de1ff2e5", null ],
+    [ "~Font", "classtouchgfx_1_1_font.html#a87d5c596daaff6d7f1488f47f0150e30", null ],
+    [ "Font", "classtouchgfx_1_1_font_acba0f816a657bfebf826344b29203777.html#acba0f816a657bfebf826344b29203777", null ],
+    [ "getBitsPerPixel", "classtouchgfx_1_1_font_abc4cac4685eec4ec9a0c8fbddffcdced.html#abc4cac4685eec4ec9a0c8fbddffcdced", null ],
+    [ "getCharWidth", "classtouchgfx_1_1_font_a1b8cc15fb8f4b69afe2937623430b8f8.html#a1b8cc15fb8f4b69afe2937623430b8f8", null ],
+    [ "getFontHeight", "classtouchgfx_1_1_font_a0bf349b93536d90278d253c0e27df070.html#a0bf349b93536d90278d253c0e27df070", null ],
+    [ "getGlyph", "classtouchgfx_1_1_font_a26b4bd5f0d930baa2b421585c653041b.html#a26b4bd5f0d930baa2b421585c653041b", null ],
+    [ "getGlyph", "classtouchgfx_1_1_font_abb4a286aec7e1d7b6a01f98a73be0194.html#abb4a286aec7e1d7b6a01f98a73be0194", null ],
+    [ "getKerning", "classtouchgfx_1_1_font_a8c29bedb359cc4f8f1e8d0468ca17d57.html#a8c29bedb359cc4f8f1e8d0468ca17d57", null ],
+    [ "getMaxPixelsLeft", "classtouchgfx_1_1_font_a7dfdcd8504cc7805c30b90de267089f2.html#a7dfdcd8504cc7805c30b90de267089f2", null ],
+    [ "getMaxPixelsRight", "classtouchgfx_1_1_font_a072824d7c06c8e93d687f5fc287a9d3b.html#a072824d7c06c8e93d687f5fc287a9d3b", null ],
+    [ "getMaxTextHeight", "classtouchgfx_1_1_font_ac91bf9b2176160c0e18c1ade4b61f09f.html#ac91bf9b2176160c0e18c1ade4b61f09f", null ],
+    [ "getMinimumTextHeight", "classtouchgfx_1_1_font_a045420931ba966bfdb54a01f7b38dc53.html#a045420931ba966bfdb54a01f7b38dc53", null ],
+    [ "getNumberOfLines", "classtouchgfx_1_1_font_a3e4d7f1a9df6d12acd866c977e51428b.html#a3e4d7f1a9df6d12acd866c977e51428b", null ],
+    [ "getSpacingAbove", "classtouchgfx_1_1_font_aa989b5d7caedb47d0f6867e5b4e4f3bc.html#aa989b5d7caedb47d0f6867e5b4e4f3bc", null ],
+    [ "getStringWidth", "classtouchgfx_1_1_font_ad7dddd5ef12dabd81334c16500da455c.html#ad7dddd5ef12dabd81334c16500da455c", null ],
+    [ "getStringWidth", "classtouchgfx_1_1_font_ae06f8b124d368d4db7f12f913f0d92cd.html#ae06f8b124d368d4db7f12f913f0d92cd", null ],
+    [ "getStringWidthLTR", "classtouchgfx_1_1_font_a09fa7cb25f78a3ddcf7d7dd070ffb1c7.html#a09fa7cb25f78a3ddcf7d7dd070ffb1c7", null ],
+    [ "getStringWidthRTL", "classtouchgfx_1_1_font_a2a9a980fa38c6b50a62f6b9cc45ffa3e.html#a2a9a980fa38c6b50a62f6b9cc45ffa3e", null ],
+    [ "bPerPixel", "classtouchgfx_1_1_font.html#ac72ce3f2a48b0465b46e6246eb4f5afb", null ],
+    [ "fontHeight", "classtouchgfx_1_1_font.html#a0368f14498012c2ea12c72b0eea75d92", null ],
+    [ "getStringWidthFunction", "classtouchgfx_1_1_font.html#ae1fc9d24bacca2806544c13bc09f0631", null ],
+    [ "maxPixelsLeft", "classtouchgfx_1_1_font.html#a540a5126bac1e6e6f308ed6f26dfc684", null ],
+    [ "maxPixelsRight", "classtouchgfx_1_1_font.html#a5bfb5d6065d7ae0271a7f0dba73fd453", null ],
+    [ "pixelsBelowBaseline", "classtouchgfx_1_1_font.html#a65fa1ce4370c34b6d3cf6fed911e47ad", null ]
+];

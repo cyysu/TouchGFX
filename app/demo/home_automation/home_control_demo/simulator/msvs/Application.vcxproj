@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="4.0">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDLTouchController.cpp" />
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL.cpp" />
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL_icon.cpp" />
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\OSWrappers.cpp" />
+    <ClCompile Include="..\..\gui\src\air_condition_screen\AirConditionPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\air_condition_screen\AirConditionView.cpp" />
+    <ClCompile Include="..\..\gui\src\appliances_screen\AppliancesPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\appliances_screen\AppliancesView.cpp" />
+    <ClCompile Include="..\..\gui\src\blinds_screen\BlindsPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\blinds_screen\BlindsView.cpp" />
+    <ClCompile Include="..\..\gui\src\common\BasePresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\common\BlindsSelector.cpp" />
+    <ClCompile Include="..\..\gui\src\common\Constants.cpp" />
+    <ClCompile Include="..\..\gui\src\common\DotIndicator.cpp" />
+    <ClCompile Include="..\..\gui\src\common\FadeTransition.cpp" />
+    <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp" />
+    <ClCompile Include="..\..\gui\src\common\JogWheel.cpp" />
+    <ClCompile Include="..\..\gui\src\common\MainMenu.cpp" />
+    <ClCompile Include="..\..\gui\src\common\MenuButton.cpp" />
+    <ClCompile Include="..\..\gui\src\common\RoomSelector.cpp" />
+    <ClCompile Include="..\..\gui\src\common\SelectionButton.cpp" />
+    <ClCompile Include="..\..\gui\src\common\SwipeContainer.cpp" />
+    <ClCompile Include="..\..\gui\src\entertainment_screen\EntertainmentPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\entertainment_screen\EntertainmentView.cpp" />
+    <ClCompile Include="..\..\gui\src\home_screen\HomePresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\home_screen\HomeView.cpp" />
+    <ClCompile Include="..\..\gui\src\lighting_screen\LightingPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\lighting_screen\LightingView.cpp" />
+    <ClCompile Include="..\..\gui\src\model\AlbumManager.cpp" />
+    <ClCompile Include="..\..\gui\src\model\Model.cpp" />
+    <ClCompile Include="..\..\gui\src\model\WashingMachine.cpp" />
+    <ClCompile Include="..\..\gui\src\security_screen\SecurityPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\security_screen\SecurityRoomSelector.cpp" />
+    <ClCompile Include="..\..\gui\src\security_screen\SecurityView.cpp" />
+    <ClCompile Include="..\..\gui\src\settings_screen\SettingsPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\settings_screen\SettingsSlider.cpp" />
+    <ClCompile Include="..\..\gui\src\settings_screen\SettingsView.cpp" />
+    <ClCompile Include="..\..\gui\src\system\Clock.cpp" />
+    <ClCompile Include="..\..\gui\src\tiles\ClockTile.cpp" />
+    <ClCompile Include="..\..\gui\src\tiles\ImageTile.cpp" />
+    <ClCompile Include="..\..\gui\src\tiles\MusicPlayerTile.cpp" />
+    <ClCompile Include="..\..\gui\src\tiles\TopTile.cpp" />
+    <ClCompile Include="..\..\gui\src\tiles\WashingMachineTile.cpp" />
+    <ClCompile Include="..\..\gui\src\tiles\WeatherTile.cpp" />
+    <ClCompile Include="..\..\gui\src\tiles\WeatherTileDayElement.cpp" />
+    <ClCompile Include="..\..\simulator\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\assets\fonts\MavenPro-Medium.ttf" />
+    <None Include="..\..\assets\fonts\MavenPro-Regular.ttf" />
+    <None Include="..\..\assets\fonts\RobotoCondensed-Regular.ttf" />
+    <None Include="..\..\assets\images\air_condition\air_con_headline.png" />
+    <None Include="..\..\assets\images\air_condition\air_con_schedule_button.png" />
+    <None Include="..\..\assets\images\air_condition\air_con_schedule_button_pressed.png" />
+    <None Include="..\..\assets\images\air_condition\bed_room_selected.png" />
+    <None Include="..\..\assets\images\air_condition\jogwheel_normal.png" />
+    <None Include="..\..\assets\images\air_condition\jogwheel_pressed.png" />
+    <None Include="..\..\assets\images\air_condition\kitchen_selected.png" />
+    <None Include="..\..\assets\images\air_condition\living_room_selected.png" />
+    <None Include="..\..\assets\images\air_condition\room1_selected.png" />
+    <None Include="..\..\assets\images\air_condition\room2_selected.png" />
+    <None Include="..\..\assets\images\air_condition\room_layout.png" />
+    <None Include="..\..\assets\images\appliances_inactive.png" />
+    <None Include="..\..\assets\images\background.png" />
+    <None Include="..\..\assets\images\blinds\blind_selector_pressed.png" />
+    <None Include="..\..\assets\images\blinds\blinds_headline.png" />
+    <None Include="..\..\assets\images\blinds\blinds_schedule_button.png" />
+    <None Include="..\..\assets\images\blinds\jogwheel_percentage.png" />
+    <None Include="..\..\assets\images\blinds\room_layout_blinds.png" />
+    <None Include="..\..\assets\images\entertainment\back_normal.png" />
+    <None Include="..\..\assets\images\entertainment\back_pressed.png" />
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_0.png" />
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_1.png" />
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_2.png" />
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_3.png" />
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_4.png" />
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_5.png" />
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_6.png" />
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_7.png" />
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_8.png" />
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_9.png" />
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_0.png" />
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_1.png" />
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_2.png" />
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_3.png" />
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_4.png" />
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_5.png" />
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_6.png" />
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_7.png" />
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_8.png" />
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_9.png" />
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_0.png" />
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_1.png" />
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_2.png" />
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_3.png" />
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_4.png" />
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_5.png" />
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_6.png" />
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_7.png" />
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_8.png" />
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_9.png" />
+    <None Include="..\..\assets\images\entertainment\Entertainment_headline.png" />
+    <None Include="..\..\assets\images\entertainment\next_normal.png" />
+    <None Include="..\..\assets\images\entertainment\next_pressed.png" />
+    <None Include="..\..\assets\images\entertainment\play_normal.png" />
+    <None Include="..\..\assets\images\entertainment\play_pressed.png" />
+    <None Include="..\..\assets\images\entertainment\shadow_large_left.png" />
+    <None Include="..\..\assets\images\entertainment\shadow_large_right.png" />
+    <None Include="..\..\assets\images\entertainment\shadow_small_left.png" />
+    <None Include="..\..\assets\images\entertainment\shadow_small_right.png" />
+    <None Include="..\..\assets\images\entertainment\top_navi.png" />
+    <None Include="..\..\assets\images\idle\air_con_top.png" />
+    <None Include="..\..\assets\images\idle\blinds_top.png" />
+    <None Include="..\..\assets\images\idle\covers_100\cover100_0.png" />
+    <None Include="..\..\assets\images\idle\covers_100\cover100_1.png" />
+    <None Include="..\..\assets\images\idle\covers_100\cover100_2.png" />
+    <None Include="..\..\assets\images\idle\covers_100\cover100_3.png" />
+    <None Include="..\..\assets\images\idle\covers_100\cover100_4.png" />
+    <None Include="..\..\assets\images\idle\covers_100\cover100_5.png" />
+    <None Include="..\..\assets\images\idle\covers_100\cover100_6.png" />
+    <None Include="..\..\assets\images\idle\covers_100\cover100_7.png" />
+    <None Include="..\..\assets\images\idle\covers_100\cover100_8.png" />
+    <None Include="..\..\assets\images\idle\covers_100\cover100_9.png" />
+    <None Include="..\..\assets\images\idle\dishwasher_tile.png" />
+    <None Include="..\..\assets\images\idle\dishwasher_tile_small.png" />
+    <None Include="..\..\assets\images\idle\dot_active.png" />
+    <None Include="..\..\assets\images\idle\dot_inactive.png" />
+    <None Include="..\..\assets\images\idle\lighting_top.png" />
+    <None Include="..\..\assets\images\idle\pause_button.png" />
+    <None Include="..\..\assets\images\idle\pause_button_pressed.png" />
+    <None Include="..\..\assets\images\idle\play_button.png" />
+    <None Include="..\..\assets\images\idle\play_button_pressed.png" />
+    <None Include="..\..\assets\images\idle\tumble_dryer_tile.png" />
+    <None Include="..\..\assets\images\idle\tumble_dryer_tile_small.png" />
+    <None Include="..\..\assets\images\idle\vert_line_buttom.png" />
+    <None Include="..\..\assets\images\idle\vert_line_top.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_00.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_01.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_02.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_03.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_04.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_05.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_06.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_07.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_08.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_09.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_10.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_11.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_12.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_13.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_14.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_15.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_16.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_17.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_18.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_19.png" />
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_20.png" />
+    <None Include="..\..\assets\images\idle\weather_bar.png" />
+    <None Include="..\..\assets\images\idle\weather_tile\icon_cloudy.png" />
+    <None Include="..\..\assets\images\idle\weather_tile\icon_lightning.png" />
+    <None Include="..\..\assets\images\idle\weather_tile\icon_rain.png" />
+    <None Include="..\..\assets\images\idle\weather_tile\icon_rain_sun.png" />
+    <None Include="..\..\assets\images\idle\weather_tile\icon_sun.png" />
+    <None Include="..\..\assets\images\lighting\lighting_headline.png" />
+    <None Include="..\..\assets\images\lighting\lighting_schedule_button.png" />
+    <None Include="..\..\assets\images\menu\aircon_hover.png" />
+    <None Include="..\..\assets\images\menu\aircon_normal.png" />
+    <None Include="..\..\assets\images\menu\aircon_pressed.png" />
+    <None Include="..\..\assets\images\menu\appliances_hover.png" />
+    <None Include="..\..\assets\images\menu\appliances_normal.png" />
+    <None Include="..\..\assets\images\menu\appliances_pressed.png" />
+    <None Include="..\..\assets\images\menu\blinds_hover.png" />
+    <None Include="..\..\assets\images\menu\blinds_normal.png" />
+    <None Include="..\..\assets\images\menu\blinds_pressed.png" />
+    <None Include="..\..\assets\images\menu\entertainment_hover.png" />
+    <None Include="..\..\assets\images\menu\entertainment_normal.png" />
+    <None Include="..\..\assets\images\menu\entertainment_pressed.png" />
+    <None Include="..\..\assets\images\menu\lighting_hover.png" />
+    <None Include="..\..\assets\images\menu\lighting_normal.png" />
+    <None Include="..\..\assets\images\menu\lighting_pressed.png" />
+    <None Include="..\..\assets\images\menu\security_hover.png" />
+    <None Include="..\..\assets\images\menu\security_normal.png" />
+    <None Include="..\..\assets\images\menu\security_pressed.png" />
+    <None Include="..\..\assets\images\menu\settings_hover.png" />
+    <None Include="..\..\assets\images\menu\settings_normal.png" />
+    <None Include="..\..\assets\images\menu\settings_pressed.png" />
+    <None Include="..\..\assets\images\security\security_all_off_button.png" />
+    <None Include="..\..\assets\images\security\security_all_on_button.png" />
+    <None Include="..\..\assets\images\security\security_bed_room_selected.png" />
+    <None Include="..\..\assets\images\security\security_headline.png" />
+    <None Include="..\..\assets\images\security\security_kitchen_selected.png" />
+    <None Include="..\..\assets\images\security\security_living_room_selected.png" />
+    <None Include="..\..\assets\images\security\security_room1_selected.png" />
+    <None Include="..\..\assets\images\security\security_room2_selected.png" />
+    <None Include="..\..\assets\images\security\security_room_layout.png" />
+    <None Include="..\..\assets\images\security\security_schedule_button.png" />
+    <None Include="..\..\assets\images\settings\settings_background.png" />
+    <None Include="..\..\assets\images\settings\settings_background_small.png" />
+    <None Include="..\..\assets\images\settings\slider_button.png" />
+    <None Include="..\..\assets\texts\texts.xlsx" />
+    <None Include="..\..\config\msvs\Application.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\driver\touch\SDLTouchController.hpp" />
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\hal\simulator\sdl\HALSDL.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\air_condition_screen\AirConditionPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\air_condition_screen\AirConditionView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\appliances_screen\AppliancesPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\appliances_screen\AppliancesView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\blinds_screen\BlindsPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\blinds_screen\BlindsView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\BasePresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\BaseView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\BaseViewInterface.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\BlindsSelector.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\Config.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\Constants.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\DotIndicator.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\FadeTransition.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\FontPosition.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendHeap.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\JogWheel.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\Layout.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\MainMenu.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\MenuButton.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\RoomSelector.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\SelectionButton.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\SwipeContainer.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\WashingMachineSimulator.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\entertainment_screen\EntertainmentPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\entertainment_screen\EntertainmentView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\home_screen\HomePresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\home_screen\HomeView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\lighting_screen\LightingPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\lighting_screen\LightingView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\Album.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\AlbumManager.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\Model.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\MusicPlayer.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\Room.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\TimeFormat.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\WashingMachine.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\security_screen\SecurityPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\security_screen\SecurityRoomSelector.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\security_screen\SecurityView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\settings_screen\SettingsPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\settings_screen\SettingsSlider.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\settings_screen\SettingsView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\system\Clock.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\system\DateTime.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\tiles\BaseTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\tiles\ClockTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\tiles\ImageTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\tiles\MusicPlayerTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\tiles\TemperatureTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\tiles\TopTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\tiles\WashingMachineTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\tiles\WeatherTile.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\tiles\WeatherTileDayElement.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(TouchGFXReleasePath)\config\TouchGFX.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BBEBDFAD-582B-4784-BE11-9D650999CC4C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Application</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\config\msvs\Application.props" />
+    <Import Project="$(TouchGFXReleasePath)\config\msvs\touchgfx.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\config\msvs\Application.props" />
+    <Import Project="$(TouchGFXReleasePath)\config\msvs\touchgfx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\build\$(Configuration)\bin\</OutDir>
+    <IntDir>..\..\build\$(Configuration)\obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\build\$(Configuration)\bin\</OutDir>
+    <IntDir>..\..\build\$(Configuration)\obj\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>4355;4457;4458;4459</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <DisableSpecificWarnings>4355;4457;4458;4459</DisableSpecificWarnings>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL.dll $(OutDir)
+copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL_image.dll $(OutDir)
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL.dll $(OutDir)
+copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL_image.dll $(OutDir)
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(TouchGFXReleasePath)\config\msvs\touchgfx_prebuild.targets" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,12 @@
+The demo supports more than one demo board. These demo boards uses different
+non opaque image formats for optimal performance. The generated images are
+per default in the ARGB8888 format that is the optimal format for ST boards.
+For a slightly lower footprint and slightly increased performance on e.g. NXP
+boards, change the settings in config/gcc/app.mk or config/msvs/Application.props to:
+
+non_opaque_image_format := RGB565
+text_data_format := 
+
+(see documentation (Application/Project Configuration) for further help)
+
+and rebuild the simulator and then build and deploy to your target board.

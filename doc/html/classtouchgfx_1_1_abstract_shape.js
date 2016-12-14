@@ -1,0 +1,25 @@
+var classtouchgfx_1_1_abstract_shape =
+[
+    [ "ShapePoint", "structtouchgfx_1_1_abstract_shape_1_1_shape_point.html", "structtouchgfx_1_1_abstract_shape_1_1_shape_point" ],
+    [ "AbstractShape", "classtouchgfx_1_1_abstract_shape_ab6d3ca171180811239d5370e7830c6a9.html#ab6d3ca171180811239d5370e7830c6a9", null ],
+    [ "~AbstractShape", "classtouchgfx_1_1_abstract_shape_a1fa6a574bf944777cfd060734f229798.html#a1fa6a574bf944777cfd060734f229798", null ],
+    [ "drawCanvasWidget", "classtouchgfx_1_1_abstract_shape_a5d553fccf9fc18b6de8524c80fba9ed7.html#a5d553fccf9fc18b6de8524c80fba9ed7", null ],
+    [ "getAngle", "classtouchgfx_1_1_abstract_shape_a899630b581c54ae392ecca544831df2c.html#a899630b581c54ae392ecca544831df2c", null ],
+    [ "getCacheX", "classtouchgfx_1_1_abstract_shape_a315fc9239c4ddd4f0a5e1fc4133e6657.html#a315fc9239c4ddd4f0a5e1fc4133e6657", null ],
+    [ "getCacheY", "classtouchgfx_1_1_abstract_shape_a312c62c6df5e0f0800c0a167cbacbc99.html#a312c62c6df5e0f0800c0a167cbacbc99", null ],
+    [ "getCornerX", "classtouchgfx_1_1_abstract_shape_a7d11307f30fe5291204aec31087e3ff5.html#a7d11307f30fe5291204aec31087e3ff5", null ],
+    [ "getCornerY", "classtouchgfx_1_1_abstract_shape_ad33a447d9a73e25cb5e21484ac6086b1.html#ad33a447d9a73e25cb5e21484ac6086b1", null ],
+    [ "getMinimalRect", "classtouchgfx_1_1_abstract_shape_ae2442083a504df94e38d17440fa9e5b3.html#ae2442083a504df94e38d17440fa9e5b3", null ],
+    [ "getNumPoints", "classtouchgfx_1_1_abstract_shape_a287d57fbce5bbf4147083580aa3bdb8a.html#a287d57fbce5bbf4147083580aa3bdb8a", null ],
+    [ "getOrigin", "classtouchgfx_1_1_abstract_shape_a52d6bc56feb8b222d0cc5d565fa54b55.html#a52d6bc56feb8b222d0cc5d565fa54b55", null ],
+    [ "moveOrigin", "classtouchgfx_1_1_abstract_shape_a3eb5309a77ec2e1f6ff9b4717ffead8b.html#a3eb5309a77ec2e1f6ff9b4717ffead8b", null ],
+    [ "setAngle", "classtouchgfx_1_1_abstract_shape_a241a28cb2a44be5be3440363436be22f.html#a241a28cb2a44be5be3440363436be22f", null ],
+    [ "setCache", "classtouchgfx_1_1_abstract_shape_a9808863be2b3e01811ec0a64af117e38.html#a9808863be2b3e01811ec0a64af117e38", null ],
+    [ "setCorner", "classtouchgfx_1_1_abstract_shape_af7c8c507a7ff55b3790ab882fa3e9cfa.html#af7c8c507a7ff55b3790ab882fa3e9cfa", null ],
+    [ "setOrigin", "classtouchgfx_1_1_abstract_shape_a307746433e449d9793936b6d621a06bc.html#a307746433e449d9793936b6d621a06bc", null ],
+    [ "setScale", "classtouchgfx_1_1_abstract_shape_a76abcdb37af7716227c250c193d436fa.html#a76abcdb37af7716227c250c193d436fa", null ],
+    [ "setScale", "classtouchgfx_1_1_abstract_shape_aac180b9d9e137ad1f9b3e294650dfec3.html#aac180b9d9e137ad1f9b3e294650dfec3", null ],
+    [ "setShape", "classtouchgfx_1_1_abstract_shape_a912342fa1846fd31bdc4b2cb8c90a54f.html#a912342fa1846fd31bdc4b2cb8c90a54f", null ],
+    [ "updateAbstractShapeCache", "classtouchgfx_1_1_abstract_shape_ab88a1d31368bcd2b6c4540f570bd183a.html#ab88a1d31368bcd2b6c4540f570bd183a", null ],
+    [ "updateAngle", "classtouchgfx_1_1_abstract_shape_afa02bb95b97dd745c1a7ea692f8c1f2a.html#afa02bb95b97dd745c1a7ea692f8c1f2a", null ]
+];

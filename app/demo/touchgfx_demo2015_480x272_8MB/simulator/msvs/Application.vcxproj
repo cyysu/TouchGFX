@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="4.0">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDLTouchController.cpp" />
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL.cpp" />
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL_icon.cpp" />
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\OSWrappers.cpp" />
+    <ClCompile Include="..\..\gui\src\common\CollapsibleMenu.cpp" />
+    <ClCompile Include="..\..\gui\src\common\DemoPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\common\DotIndicator.cpp" />
+    <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp" />
+    <ClCompile Include="..\..\gui\src\common\SwipeContainer.cpp" />
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\CircularProgress.cpp" />
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\CustomControlsPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\CustomControlsView.cpp" />
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\DatePicker.cpp" />
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\Gauge.cpp" />
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\ThreeWayProgressBar.cpp" />
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\ThreeWayProgressBarCircle.cpp" />
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\VerticalSlideMenu.cpp" />
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\WheelSelector.cpp" />
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\WheelSelectorExtra.cpp" />
+    <ClCompile Include="..\..\gui\src\easing_equation_screen\EasingEquationButton.cpp" />
+    <ClCompile Include="..\..\gui\src\easing_equation_screen\EasingEquationGraph.cpp" />
+    <ClCompile Include="..\..\gui\src\easing_equation_screen\EasingEquationInOrOutOrInOut.cpp" />
+    <ClCompile Include="..\..\gui\src\easing_equation_screen\EasingEquationPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\easing_equation_screen\EasingEquationSelector.cpp" />
+    <ClCompile Include="..\..\gui\src\easing_equation_screen\EasingEquationView.cpp" />
+    <ClCompile Include="..\..\gui\src\graph_screen\AbstractGraph.cpp" />
+    <ClCompile Include="..\..\gui\src\graph_screen\Graph.cpp" />
+    <ClCompile Include="..\..\gui\src\graph_screen\GraphBelow.cpp" />
+    <ClCompile Include="..\..\gui\src\graph_screen\GraphDots.cpp" />
+    <ClCompile Include="..\..\gui\src\graph_screen\GraphLine.cpp" />
+    <ClCompile Include="..\..\gui\src\graph_screen\GraphPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\graph_screen\GraphView.cpp" />
+    <ClCompile Include="..\..\gui\src\graph_screen\LegendEntry.cpp" />
+    <ClCompile Include="..\..\gui\src\graph_screen\PainterVerticalAlpha.cpp" />
+    <ClCompile Include="..\..\gui\src\graph_screen\PieChart.cpp" />
+    <ClCompile Include="..\..\gui\src\main_menu_screen\MainMenuPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\main_menu_screen\MainMenuView.cpp" />
+    <ClCompile Include="..\..\gui\src\model\Model.cpp" />
+    <ClCompile Include="..\..\gui\src\product_presenter_screen\ProductPresenterPresenter.cpp" />
+    <ClCompile Include="..\..\gui\src\product_presenter_screen\ProductPresenterView.cpp" />
+    <ClCompile Include="..\..\simulator\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\assets\fonts\Asap-Regular.ttf" />
+    <None Include="..\..\assets\fonts\ipaexg.ttf" />
+    <None Include="..\..\assets\fonts\NotoSans-Regular.ttf" />
+    <None Include="..\..\assets\images\CustomControls\control_center_button.png" />
+    <None Include="..\..\assets\images\CustomControls\control_center_button_pressed.png" />
+    <None Include="..\..\assets\images\CustomControls\control_color_wheel.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_down.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_down_inactive.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_down_pressed.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_up-inactive.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_up-pressed.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_up.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_button.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_button_pressed.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_datepicker_large.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_datepicker_small.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_gauge_large.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_gauge_small.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_percentage_large.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_percentage_small.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_three_way_large.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_three_way_small.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_shadow_bottom.png" />
+    <None Include="..\..\assets\images\CustomControls\control_menu_shadow_top.png" />
+    <None Include="..\..\assets\images\CustomControls\controls_background.png" />
+    <None Include="..\..\assets\images\CustomControls\controls_menu_background.png" />
+    <None Include="..\..\assets\images\CustomControls\controls_three_way_small_circle.png" />
+    <None Include="..\..\assets\images\CustomControls\controls_wheel_background.png" />
+    <None Include="..\..\assets\images\CustomControls\datepicker_bottom_shadow_overlay.png" />
+    <None Include="..\..\assets\images\CustomControls\datepicker_glass_overlay.png" />
+    <None Include="..\..\assets\images\CustomControls\datepicker_main_background.png" />
+    <None Include="..\..\assets\images\CustomControls\datepicker_top_shadow_overlay.png" />
+    <None Include="..\..\assets\images\CustomControls\gauge_background.png" />
+    <None Include="..\..\assets\images\CustomControls\gauge_needle_pin.png" />
+    <None Include="..\..\assets\images\CustomControls\small_circle_bin_icon_active.png" />
+    <None Include="..\..\assets\images\CustomControls\small_circle_bin_icon_inactive.png" />
+    <None Include="..\..\assets\images\CustomControls\small_circle_folder_icon_active.png" />
+    <None Include="..\..\assets\images\CustomControls\small_circle_folder_icon_inactive.png" />
+    <None Include="..\..\assets\images\CustomControls\small_circle_papers_icon_active.png" />
+    <None Include="..\..\assets\images\CustomControls\small_circle_papers_icon_inactive.png" />
+    <None Include="..\..\assets\images\EasingEquation\easing_background.png" />
+    <None Include="..\..\assets\images\EasingEquation\easing_bottom_menu.png" />
+    <None Include="..\..\assets\images\EasingEquation\easing_bottom_menu_active.png" />
+    <None Include="..\..\assets\images\EasingEquation\easing_bottom_menu_selected.png" />
+    <None Include="..\..\assets\images\EasingEquation\easing_dot.png" />
+    <None Include="..\..\assets\images\EasingEquation\easing_menu_button.png" />
+    <None Include="..\..\assets\images\EasingEquation\easing_menu_button_pressed.png" />
+    <None Include="..\..\assets\images\EasingEquation\easing_side_menu_button.png" />
+    <None Include="..\..\assets\images\EasingEquation\easing_side_menu_button_active.png" />
+    <None Include="..\..\assets\images\EasingEquation\easing_side_menu_button_selected.png" />
+    <None Include="..\..\assets\images\EasingEquation\graphDot.png" />
+    <None Include="..\..\assets\images\Graph\blue_area_button_active.png" />
+    <None Include="..\..\assets\images\Graph\blue_area_button_inactive.png" />
+    <None Include="..\..\assets\images\Graph\blue_dots_button_active.png" />
+    <None Include="..\..\assets\images\Graph\blue_dots_button_inactive.png" />
+    <None Include="..\..\assets\images\Graph\blue_line_button_active.png" />
+    <None Include="..\..\assets\images\Graph\blue_line_button_inactive.png" />
+    <None Include="..\..\assets\images\Graph\graph_background_bottom.png" />
+    <None Include="..\..\assets\images\Graph\graph_menu_button.png" />
+    <None Include="..\..\assets\images\Graph\graph_menu_button_pressed.png" />
+    <None Include="..\..\assets\images\Graph\graph_toggle_button_active.png" />
+    <None Include="..\..\assets\images\Graph\graph_toggle_button_inactive.png" />
+    <None Include="..\..\assets\images\Graph\graph_top_menu_activate_button.png" />
+    <None Include="..\..\assets\images\Graph\graph_top_menu_line.png" />
+    <None Include="..\..\assets\images\Graph\green_area_button_active.png" />
+    <None Include="..\..\assets\images\Graph\green_area_button_inactive.png" />
+    <None Include="..\..\assets\images\Graph\green_dots_button_active.png" />
+    <None Include="..\..\assets\images\Graph\green_dots_button_inactive.png" />
+    <None Include="..\..\assets\images\Graph\green_line_button_active.png" />
+    <None Include="..\..\assets\images\Graph\green_line_button_inactive.png" />
+    <None Include="..\..\assets\images\Graph\half_circle_toggle_button_active.png" />
+    <None Include="..\..\assets\images\Graph\half_circle_toggle_button_inactive.png" />
+    <None Include="..\..\assets\images\Graph\new_graph.png" />
+    <None Include="..\..\assets\images\Graph\new_graph_pressed.png" />
+    <None Include="..\..\assets\images\Graph\new_pie_chart.png" />
+    <None Include="..\..\assets\images\Graph\new_pie_chart_pressed.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_blue.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_blue_active.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_green.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_green_active.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_orange.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_orange_active.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_purple.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_purple_active.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_red.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_red_active.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_yellow.png" />
+    <None Include="..\..\assets\images\Graph\pie_chart_legend_yellow_active.png" />
+    <None Include="..\..\assets\images\Graph\pie_toggle_button_active.png" />
+    <None Include="..\..\assets\images\Graph\pie_toggle_button_inactive.png" />
+    <None Include="..\..\assets\images\MainMenu\demo_button_01.png" />
+    <None Include="..\..\assets\images\MainMenu\demo_button_01_pressed.png" />
+    <None Include="..\..\assets\images\MainMenu\demo_button_02_03.png" />
+    <None Include="..\..\assets\images\MainMenu\demo_button_02_03_pressed.png" />
+    <None Include="..\..\assets\images\MainMenu\demo_button_04.png" />
+    <None Include="..\..\assets\images\MainMenu\demo_button_04_pressed.png" />
+    <None Include="..\..\assets\images\MainMenu\demo_button_05_06.png" />
+    <None Include="..\..\assets\images\MainMenu\demo_button_05_06_pressed.png" />
+    <None Include="..\..\assets\images\MainMenu\menu_demo_screen_02.png" />
+    <None Include="..\..\assets\images\MainMenu\menu_demo_screen_03.png" />
+    <None Include="..\..\assets\images\MainMenu\menu_demo_screen_04.png" />
+    <None Include="..\..\assets\images\MainMenu\menu_demo_screen_05.png" />
+    <None Include="..\..\assets\images\MainMenu\menu_stage_stretch_left_side.png" />
+    <None Include="..\..\assets\images\MainMenu\menu_stage_stretch_right_side.png" />
+    <None Include="..\..\assets\images\MainMenu\screen_swipe_dots_active.png" />
+    <None Include="..\..\assets\images\MainMenu\screen_swipe_dots_inactive.png" />
+    <None Include="..\..\assets\images\ProductPresenter\flag_dnk_active.png" />
+    <None Include="..\..\assets\images\ProductPresenter\flag_dnk_inactive.png" />
+    <None Include="..\..\assets\images\ProductPresenter\flag_gbr_active.png" />
+    <None Include="..\..\assets\images\ProductPresenter\flag_gbr_inactive.png" />
+    <None Include="..\..\assets\images\ProductPresenter\flag_jpn_active.png" />
+    <None Include="..\..\assets\images\ProductPresenter\flag_jpn_inactive.png" />
+    <None Include="..\..\assets\images\ProductPresenter\flag_nld_active.png" />
+    <None Include="..\..\assets\images\ProductPresenter\flag_nld_inactive.png" />
+    <None Include="..\..\assets\images\ProductPresenter\flag_ukr_active.png" />
+    <None Include="..\..\assets\images\ProductPresenter\flag_ukr_inactive.png" />
+    <None Include="..\..\assets\images\ProductPresenter\poster_image_00.png" />
+    <None Include="..\..\assets\images\ProductPresenter\poster_image_01.png" />
+    <None Include="..\..\assets\images\ProductPresenter\poster_image_02.png" />
+    <None Include="..\..\assets\images\ProductPresenter\product_presenter_menu_button.png" />
+    <None Include="..\..\assets\images\ProductPresenter\product_presenter_menu_button_pressed.png" />
+    <None Include="..\..\assets\images\ProductPresenter\product_presenter_nav_bar.png" />
+    <None Include="..\..\assets\images\ProductPresenter\product_presenter_next.png" />
+    <None Include="..\..\assets\images\ProductPresenter\product_presenter_next_pressed.png" />
+    <None Include="..\..\assets\texts\texts.xlsx" />
+    <None Include="..\..\config\msvs\Application.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\driver\touch\SDLTouchController.hpp" />
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\hal\simulator\sdl\HALSDL.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\CollapsibleMenu.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\DemoPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\DemoView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\DemoViewInterface.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\DotIndicator.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendHeap.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\SwipeContainer.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\common\Utils.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\CircularProgress.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\CustomControlsPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\CustomControlsView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\DatePicker.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\Gauge.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\ThreeWayProgressBar.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\ThreeWayProgressBarCircle.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\VerticalSlideMenu.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\WheelSelector.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\WheelSelectorExtra.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\easing_equation_screen\EasingEquationButton.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\easing_equation_screen\EasingEquationGraph.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\easing_equation_screen\EasingEquationInOrOutOrInOut.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\easing_equation_screen\EasingEquationPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\easing_equation_screen\EasingEquations.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\easing_equation_screen\EasingEquationSelector.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\easing_equation_screen\EasingEquationView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\AbstractGraph.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\Graph.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\GraphBelow.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\GraphDots.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\GraphLine.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\GraphPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\GraphView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\LegendEntry.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\PainterVerticalAlpha.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\PieChart.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\main_menu_screen\MainMenuPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\main_menu_screen\MainMenuView.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\Model.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\model\Time.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\product_presenter_screen\ProductPresenterPresenter.hpp" />
+    <ClInclude Include="..\..\gui\include\gui\product_presenter_screen\ProductPresenterView.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(TouchGFXReleasePath)\config\TouchGFX.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7D4C3AF6-D46F-4F26-97B3-D4B9A321DD5E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Application</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\config\msvs\Application.props" />
+    <Import Project="$(TouchGFXReleasePath)\config\msvs\touchgfx.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\config\msvs\Application.props" />
+    <Import Project="$(TouchGFXReleasePath)\config\msvs\touchgfx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\build\$(Configuration)\bin\</OutDir>
+    <IntDir>..\..\build\$(Configuration)\obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\build\$(Configuration)\bin\</OutDir>
+    <IntDir>..\..\build\$(Configuration)\obj\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>4355;4457;4458;4459</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <DisableSpecificWarnings>4355;4457;4458;4459</DisableSpecificWarnings>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL.dll $(OutDir)
+copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL_image.dll $(OutDir)
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL.dll $(OutDir)
+copy $(TouchGFXReleasePath)\lib\sdl\win32\SDL_image.dll $(OutDir)
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(TouchGFXReleasePath)\config\msvs\touchgfx_prebuild.targets" />
+  </ImportGroup>
+</Project>

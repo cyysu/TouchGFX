@@ -1,0 +1,23 @@
+Switch 800x480 / 640x480 mode:
+
+The demo can be build for two resolutions (800x480 and 640x480). This is all handled in the gui\include\gui\common\Config.hpp file.
+
+To change the settings for the simulator build simply modify this file (as instructed in the file).
+
+When building for the supported targets you do not need to change anything. This is already handled in the Config.hpp file.
+
+
+Build Optimizations:
+
+The demo supports more than one demo board. These demo boards uses different
+non opaque image formats for optimal performance. The generated images are
+per default in the RGB565 format that is the optimal format for e.g. the
+NXP boards. For optimal performance on the ST STM32F429 boards you need to 
+change the settings in config/gcc/app.mk or config/msvs/Application.props to.
+
+non_opaque_image_format := ARGB8888
+text_data_format := A4
+
+(see documentation (Application/Project Configuration) for further help)
+
+and rebuild the simulator and then build and deploy to your target board.

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_board>
+  <pass>
+    <range>CODE 0x08000000 0x080FFFFF</range>
+    <loader>$TOOLKIT_DIR$\config\flashloader\st\FlashSTM32F756xG.flash</loader>
+  </pass>
+</flash_board>

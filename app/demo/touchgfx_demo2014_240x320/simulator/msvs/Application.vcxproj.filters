@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5F243A90-FF6C-488A-8A31-13518F7A84AA}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9FC072BC-802A-43B8-ACA6-A6FCE9726A4B}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{989F9F80-D0FE-4310-AF21-545496786CE4}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;ttf;otf;bdf;png;wav;xlsx;props;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\animated_graphics_screen">
+      <UniqueIdentifier>{D601EA6C-38C1-4B8E-9E49-12A63D0CBFF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chrom_art_screen">
+      <UniqueIdentifier>{D3966824-4F47-4477-B4C2-59CBB522BEB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{A3B3EEB2-D2DF-4FC4-B221-25260BB2004B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\home_automation_screen">
+      <UniqueIdentifier>{929E5E8B-74EC-451F-8429-984E849D4AF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\live_data_display_screen">
+      <UniqueIdentifier>{7AFFD387-A377-4C86-91A6-4A05FEBBD5BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu_screen">
+      <UniqueIdentifier>{DA314062-66DD-44E5-957C-BF7A0ADA8A7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{0E813434-9837-437B-9D2C-6139B38E8D23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TouchGFX">
+      <UniqueIdentifier>{D98F0C75-0DB7-403F-BE09-8E8305569FBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animated_graphics_screen">
+      <UniqueIdentifier>{7B66A4DC-5C6E-42A6-9428-E1AE5EA60FB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chrom_art_screen">
+      <UniqueIdentifier>{4AED4A8A-F15D-47FC-9229-FD32D9111DF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{FBF0CB2B-D4F8-442A-A923-4E0912202DBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\home_automation_screen">
+      <UniqueIdentifier>{C24C195C-2A07-4582-A0A1-04F70203D762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\live_data_display_screen">
+      <UniqueIdentifier>{990FA400-4E7A-4C95-BED3-9E8C8AF4A22D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu_screen">
+      <UniqueIdentifier>{10C200AA-0910-4F55-92A4-C1B045E5A382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{BD7CB0F3-1A19-4AB0-9163-EA8C0719F208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\simulator">
+      <UniqueIdentifier>{CAFA52DA-1A38-4E03-91A1-CC246D537F4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TouchGFX">
+      <UniqueIdentifier>{564C6EC5-95D6-4125-B616-6B5ADF8BAF69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{18A75CCE-E6C0-4E3C-ACCE-C6A434171BC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{1081F630-ECA5-4578-AC1A-134F0F06DE46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\AnimatedGraphics">
+      <UniqueIdentifier>{72E6CB5D-6D40-4412-A4BE-BF14899AC472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\ChromArt">
+      <UniqueIdentifier>{660C1BD7-161D-49E1-96DD-3FABE3DD4F7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\HomeAutomation">
+      <UniqueIdentifier>{6E6F1340-CFEC-40C2-86E5-6EE8EF733F3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\LiveDataDisplay">
+      <UniqueIdentifier>{12615133-2297-4CFC-877F-04CD39F5ADEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\Menu">
+      <UniqueIdentifier>{A8E90859-69C2-43B5-BBF8-F0FFE6507A88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\texts">
+      <UniqueIdentifier>{99D13947-4A6A-49A7-97FD-7BD0D47A327A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gui\src\animated_graphics_screen\AnimatedGraphicsPresenter.cpp">
+      <Filter>Source Files\animated_graphics_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\animated_graphics_screen\AnimatedGraphicsView.cpp">
+      <Filter>Source Files\animated_graphics_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\animated_graphics_screen\BumpMapImage.cpp">
+      <Filter>Source Files\animated_graphics_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\chrom_art_screen\ChromArtPresenter.cpp">
+      <Filter>Source Files\chrom_art_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\chrom_art_screen\ChromArtView.cpp">
+      <Filter>Source Files\chrom_art_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\DotIndicator.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\home_automation_screen\HomeAutomationPresenter.cpp">
+      <Filter>Source Files\home_automation_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\home_automation_screen\HomeAutomationView.cpp">
+      <Filter>Source Files\home_automation_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\home_automation_screen\JogWheel.cpp">
+      <Filter>Source Files\home_automation_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\home_automation_screen\TemperatureMenuItem.cpp">
+      <Filter>Source Files\home_automation_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\home_automation_screen\TemperatureScheduleMenuItem.cpp">
+      <Filter>Source Files\home_automation_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\home_automation_screen\TemperatureSlider.cpp">
+      <Filter>Source Files\home_automation_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\live_data_display_screen\CityInfo.cpp">
+      <Filter>Source Files\live_data_display_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\live_data_display_screen\LiveDataDisplayPresenter.cpp">
+      <Filter>Source Files\live_data_display_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\live_data_display_screen\LiveDataDisplayView.cpp">
+      <Filter>Source Files\live_data_display_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\live_data_display_screen\WeekInfo.cpp">
+      <Filter>Source Files\live_data_display_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\menu_screen\AnimatedGraphicsTile.cpp">
+      <Filter>Source Files\menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\menu_screen\ChromArtTile.cpp">
+      <Filter>Source Files\menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\menu_screen\HomeAutomationTile.cpp">
+      <Filter>Source Files\menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\menu_screen\LiveDataDisplayTile.cpp">
+      <Filter>Source Files\menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\menu_screen\MenuPresenter.cpp">
+      <Filter>Source Files\menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\menu_screen\MenuView.cpp">
+      <Filter>Source Files\menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\model\Model.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simulator\main.cpp">
+      <Filter>Source Files\simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDLTouchController.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL_icon.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\OSWrappers.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\assets\fonts\Asap-Regular.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\..\assets\fonts\RobotoCondensed-Regular.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\..\assets\fonts\SourceSansPro-Regular.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatedGraphics\animated_graphics_back_button.png">
+      <Filter>Resource Files\images\AnimatedGraphics</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatedGraphics\animated_graphics_back_button_pressed.png">
+      <Filter>Resource Files\images\AnimatedGraphics</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatedGraphics\light_effect_image.bmp">
+      <Filter>Resource Files\images\AnimatedGraphics</Filter>
+    </None>
+    <None Include="..\..\assets\images\ChromArt\chrom_art_background.png">
+      <Filter>Resource Files\images\ChromArt</Filter>
+    </None>
+    <None Include="..\..\assets\images\ChromArt\chrom_art_clouds.png">
+      <Filter>Resource Files\images\ChromArt</Filter>
+    </None>
+    <None Include="..\..\assets\images\ChromArt\chrom_art_off_button.png">
+      <Filter>Resource Files\images\ChromArt</Filter>
+    </None>
+    <None Include="..\..\assets\images\ChromArt\chrom_art_on_button.png">
+      <Filter>Resource Files\images\ChromArt</Filter>
+    </None>
+    <None Include="..\..\assets\images\ChromArt\chrom_art_sun.png">
+      <Filter>Resource Files\images\ChromArt</Filter>
+    </None>
+    <None Include="..\..\assets\images\ChromArt\layer_button.png">
+      <Filter>Resource Files\images\ChromArt</Filter>
+    </None>
+    <None Include="..\..\assets\images\ChromArt\layer_button_pressed.png">
+      <Filter>Resource Files\images\ChromArt</Filter>
+    </None>
+    <None Include="..\..\assets\images\ChromArt\st_logo.png">
+      <Filter>Resource Files\images\ChromArt</Filter>
+    </None>
+    <None Include="..\..\assets\images\ChromArt\touchGFX_logo.png">
+      <Filter>Resource Files\images\ChromArt</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\exit_button.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\exit_button_pressed.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\schedule_button.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\schedule_button_pressed.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_adjust_button.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_adjust_button_pressed.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_cancel_button.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_cancel_button_pressed.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_jogwheel.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_menu_item.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_menu_item_selected.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_menu_top_day_night.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_menu_top_extended.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_ok_button.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_ok_button_inactive.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_ok_button_pressed.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_schedule_button_selected.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_schedule_menu_item.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_schedule_menu_item_selected.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_slider.bmp">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\HomeAutomation\temperature_slider_knop.png">
+      <Filter>Resource Files\images\HomeAutomation</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_background_1.bmp">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_background_2.bmp">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_background_3.bmp">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_background_ending_1.png">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_dot_normal.png">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_dot_selected.png">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_small_icon_cloud.png">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_small_icon_shower.png">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_small_icon_sun.png">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_small_icon_sun_bigcloud.png">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\LiveDataDisplay\weather_small_icon_thunder.png">
+      <Filter>Resource Files\images\LiveDataDisplay</Filter>
+    </None>
+    <None Include="..\..\assets\images\Menu\background_bottom.png">
+      <Filter>Resource Files\images\Menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\Menu\background_top.png">
+      <Filter>Resource Files\images\Menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\Menu\menu_item_animated_graphics.png">
+      <Filter>Resource Files\images\Menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\Menu\menu_item_chrom_art.png">
+      <Filter>Resource Files\images\Menu</Filter>
+    </None>
+    <None Include="..\..\assets\texts\texts.xlsx">
+      <Filter>Resource Files\texts</Filter>
+    </None>
+    <None Include="..\..\config\msvs\Application.props">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gui\include\gui\animated_graphics_screen\AnimatedGraphicsPresenter.hpp">
+      <Filter>Header Files\animated_graphics_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\animated_graphics_screen\AnimatedGraphicsView.hpp">
+      <Filter>Header Files\animated_graphics_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\animated_graphics_screen\BumpMap.hpp">
+      <Filter>Header Files\animated_graphics_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\animated_graphics_screen\BumpMapImage.hpp">
+      <Filter>Header Files\animated_graphics_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\chrom_art_screen\ChromArtPresenter.hpp">
+      <Filter>Header Files\chrom_art_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\chrom_art_screen\ChromArtView.hpp">
+      <Filter>Header Files\chrom_art_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\DotIndicator.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendHeap.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\HomeAutomationPresenter.hpp">
+      <Filter>Header Files\home_automation_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\HomeAutomationView.hpp">
+      <Filter>Header Files\home_automation_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\JogWheel.hpp">
+      <Filter>Header Files\home_automation_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\TemperatureMenuItem.hpp">
+      <Filter>Header Files\home_automation_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\TemperatureScheduleMenuItem.hpp">
+      <Filter>Header Files\home_automation_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\home_automation_screen\TemperatureSlider.hpp">
+      <Filter>Header Files\home_automation_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\live_data_display_screen\CityInfo.hpp">
+      <Filter>Header Files\live_data_display_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\live_data_display_screen\LiveDataDisplayPresenter.hpp">
+      <Filter>Header Files\live_data_display_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\live_data_display_screen\LiveDataDisplayView.hpp">
+      <Filter>Header Files\live_data_display_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\live_data_display_screen\WeekInfo.hpp">
+      <Filter>Header Files\live_data_display_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\AnimatedGraphicsTile.hpp">
+      <Filter>Header Files\menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\ChromArtTile.hpp">
+      <Filter>Header Files\menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\HomeAutomationTile.hpp">
+      <Filter>Header Files\menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\LiveDataDisplayTile.hpp">
+      <Filter>Header Files\menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\MenuPresenter.hpp">
+      <Filter>Header Files\menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\MenuView.hpp">
+      <Filter>Header Files\menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\menu_screen\Tile.hpp">
+      <Filter>Header Files\menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\Model.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\RoomTemperatureInfo.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\Time.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\driver\touch\SDLTouchController.hpp">
+      <Filter>Header Files\TouchGFX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\hal\simulator\sdl\HALSDL.hpp">
+      <Filter>Header Files\TouchGFX</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

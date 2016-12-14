@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{096D9623-46D5-48D0-A496-489F90054B91}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1D26C93A-40A9-49D3-A345-E0A3D302A86E}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{A893F493-ECC9-4C22-97CD-665551C2F87C}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;ttf;otf;bdf;png;wav;xlsx;props;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{39D0E514-6399-4997-8633-0A1B7400427A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\custom_controls_screen">
+      <UniqueIdentifier>{89BF9C43-B396-4603-80EA-CA041C81535A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game2048_screen">
+      <UniqueIdentifier>{02B2CC99-9E9F-4DFE-84B2-624B42C94ED2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game2D_screen">
+      <UniqueIdentifier>{4BD0C5CD-2FB0-4589-B909-94110E842185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graph_screen">
+      <UniqueIdentifier>{FA4388F4-D3EF-4AAE-BBD1-7EFECD431F14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\main_menu_screen">
+      <UniqueIdentifier>{8FF35B96-76E5-4E36-A784-8B504117B585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{7C8BD10B-0003-4963-AE0D-1FF8DE3A04D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\product_presenter_screen">
+      <UniqueIdentifier>{3CF3D162-5AC0-4562-BCB1-68DAAD5B50B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TouchGFX">
+      <UniqueIdentifier>{EDDB67D4-7DA6-4B51-B1B2-C29B17C53512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{F923FD5D-9905-47C9-90BC-966C547BE331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\custom_controls_screen">
+      <UniqueIdentifier>{300F298A-5CC3-4DF6-A6EC-65275C3E0898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game2048_screen">
+      <UniqueIdentifier>{BF37E5AB-3929-44F4-8F94-CBE7792D4024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game2D_screen">
+      <UniqueIdentifier>{E4E2CABD-B228-464A-9F03-55348CA51CAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graph_screen">
+      <UniqueIdentifier>{0C31842C-5102-4549-83B5-7B3F41521A38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main_menu_screen">
+      <UniqueIdentifier>{2DCDADEB-0D49-4961-9C18-856E45BEF0EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{D0E09B21-0F74-407F-BEBA-CC5980145F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\product_presenter_screen">
+      <UniqueIdentifier>{93FAF684-10C5-4C8C-B10C-CA22DAD699B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\simulator">
+      <UniqueIdentifier>{64C96154-572B-4FF4-8A43-46E7E5B3F16D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TouchGFX">
+      <UniqueIdentifier>{5D6E1870-4CDB-4441-A645-F248DED95402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{EF42CF53-8EFE-4E67-8C59-5250B49A06EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{EE8BF99A-ED01-4DA5-8700-E2F4B49C79DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\AnimatingButtonsMenu">
+      <UniqueIdentifier>{99589BDB-A72D-4DCD-9F34-305483B49A1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\CarouselMenu">
+      <UniqueIdentifier>{5E58A481-E4F3-4C57-B39C-2554DA883457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\CustomControls">
+      <UniqueIdentifier>{AF9C04E1-D056-4CCE-9A13-E51C148EEADF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\Game2048">
+      <UniqueIdentifier>{80910AE3-3633-4FA5-9DCD-99B4AB9D7FC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\Game2D">
+      <UniqueIdentifier>{B7E0399F-9D6D-402C-BC35-07236CAB3079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\Graphs">
+      <UniqueIdentifier>{CECD0E81-EEEC-4A2B-893D-2D12351A3B3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\ProductPresenter">
+      <UniqueIdentifier>{3253C466-6130-4F8C-BF23-18176CC5953E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\texts">
+      <UniqueIdentifier>{0684CACF-ED52-435C-A3C5-7F3E321BD8E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gui\src\common\Carousel.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\CollapsibleMenu.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\DemoPresenter.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\DotIndicator.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\SwipeContainer.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\ZoomAnimationBox.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\CircularProgress.cpp">
+      <Filter>Source Files\custom_controls_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\CustomControlsPresenter.cpp">
+      <Filter>Source Files\custom_controls_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\CustomControlsView.cpp">
+      <Filter>Source Files\custom_controls_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\DatePicker.cpp">
+      <Filter>Source Files\custom_controls_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\Gauge.cpp">
+      <Filter>Source Files\custom_controls_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\ThreeWayProgressBar.cpp">
+      <Filter>Source Files\custom_controls_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\ThreeWayProgressBarCircle.cpp">
+      <Filter>Source Files\custom_controls_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\VerticalSlideMenu.cpp">
+      <Filter>Source Files\custom_controls_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\WheelSelector.cpp">
+      <Filter>Source Files\custom_controls_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\custom_controls_screen\WheelSelectorExtra.cpp">
+      <Filter>Source Files\custom_controls_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\game2048_screen\Game2048Presenter.cpp">
+      <Filter>Source Files\game2048_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\game2048_screen\Game2048View.cpp">
+      <Filter>Source Files\game2048_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\game2048_screen\GameBoard.cpp">
+      <Filter>Source Files\game2048_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\game2D_screen\CollectibleItem.cpp">
+      <Filter>Source Files\game2D_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\game2D_screen\Game2DPresenter.cpp">
+      <Filter>Source Files\game2D_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\game2D_screen\Game2DView.cpp">
+      <Filter>Source Files\game2D_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\game2D_screen\ParallaxBackground.cpp">
+      <Filter>Source Files\game2D_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\AbstractGraph.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\Graph.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\GraphBelow.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\GraphDots.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\GraphLine.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\GraphPresenter.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\GraphView.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\LegendEntry.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\PainterColoredBitmap.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\PainterVerticalAlpha.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\graph_screen\PieChart.cpp">
+      <Filter>Source Files\graph_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\main_menu_screen\MainMenuAnimatingButtonsView.cpp">
+      <Filter>Source Files\main_menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\main_menu_screen\MainMenuCarouselView.cpp">
+      <Filter>Source Files\main_menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\main_menu_screen\MainMenuPresenter.cpp">
+      <Filter>Source Files\main_menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\main_menu_screen\MainMenuView.cpp">
+      <Filter>Source Files\main_menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\model\Model.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\product_presenter_screen\FeaturePoster.cpp">
+      <Filter>Source Files\product_presenter_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\product_presenter_screen\ProductPresenterPresenter.cpp">
+      <Filter>Source Files\product_presenter_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\product_presenter_screen\ProductPresenterView.cpp">
+      <Filter>Source Files\product_presenter_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simulator\main.cpp">
+      <Filter>Source Files\simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDLTouchController.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL_icon.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\OSWrappers.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\assets\fonts\Asap-Regular.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\..\assets\fonts\ipaexg.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\..\assets\fonts\NotoSans-Regular.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatingButtonsMenu\Animating_buttons_background.png">
+      <Filter>Resource Files\images\AnimatingButtonsMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatingButtonsMenu\Animating_buttons_full_table_shadow_bottom.png">
+      <Filter>Resource Files\images\AnimatingButtonsMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatingButtonsMenu\Animating_buttons_full_table_shadow_left.png">
+      <Filter>Resource Files\images\AnimatingButtonsMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatingButtonsMenu\Animating_buttons_full_table_shadow_right.png">
+      <Filter>Resource Files\images\AnimatingButtonsMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatingButtonsMenu\animating_buttons_menu_icons_2048_tiny.png">
+      <Filter>Resource Files\images\AnimatingButtonsMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatingButtonsMenu\animating_buttons_menu_icons_game_2d_tiny.png">
+      <Filter>Resource Files\images\AnimatingButtonsMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatingButtonsMenu\animating_buttons_menu_icons_gauge_tiny.png">
+      <Filter>Resource Files\images\AnimatingButtonsMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatingButtonsMenu\animating_buttons_menu_icons_graph_tiny.png">
+      <Filter>Resource Files\images\AnimatingButtonsMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatingButtonsMenu\animating_buttons_menu_icons_poster_tiny.png">
+      <Filter>Resource Files\images\AnimatingButtonsMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\AnimatingButtonsMenu\Animating_buttons_table_element_shadow.png">
+      <Filter>Resource Files\images\AnimatingButtonsMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_background.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_2048_large.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_2048_medium.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_2048_small.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_game_2d_large.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_game_2d_medium.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_game_2d_small.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_gauge_large.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_gauge_medium.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_gauge_small.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_graph_large.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_graph_medium.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_graph_small.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_poster_large.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_poster_medium.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\carousel_menu_icons_poster_small.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\menu_toggle_button.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CarouselMenu\menu_toggle_button_pressed.png">
+      <Filter>Resource Files\images\CarouselMenu</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_center_button.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_center_button_pressed.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_color_wheel.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_down.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_down_inactive.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_down_pressed.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_up-inactive.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_up-pressed.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_arrow_up.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_button.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_button_pressed.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_datepicker_large.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_datepicker_small.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_gauge_large.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_gauge_small.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_percentage_large.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_percentage_small.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_three_way_large.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_icon_three_way_small.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_shadow_bottom.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\control_menu_shadow_top.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\controls_background.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\controls_menu_background.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\controls_three_way_small_circle.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\controls_wheel_background.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\datepicker_bottom_shadow_overlay.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\datepicker_glass_overlay.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\datepicker_main_background.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\datepicker_top_shadow_overlay.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\gauge_background.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\gauge_needle_pin.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\small_circle_bin_icon_active.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\small_circle_bin_icon_inactive.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\small_circle_folder_icon_active.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\small_circle_folder_icon_inactive.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\small_circle_papers_icon_active.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\CustomControls\small_circle_papers_icon_inactive.png">
+      <Filter>Resource Files\images\CustomControls</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\auto_play_button.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\auto_play_button_pressed.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\game_2048_background.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\game_2048_dot_off.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\game_2048_dot_on.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\game_2048_game_over.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\game_2048_menu_button.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\game_2048_menu_button_pressed.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\game_2048_you_win.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\how_to_play_00.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\how_to_play_01.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\how_to_play_02.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\how_to_play_background.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\how_to_play_button.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\how_to_play_button_pressed.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\how_to_play_close_button.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\new_game_button.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\new_game_button_pressed.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_0002.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_0004.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_0008.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_0016.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_0032.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_0064.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_0128.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_0256.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_0512.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_1024.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2048\tile_2048.png">
+      <Filter>Resource Files\images\Game2048</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\collectible_item_00.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\collectible_item_01.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\collectible_item_02.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\collectible_item_03.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\collectible_item_04.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\collectible_item_05.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\collectible_item_06.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\collectible_item_07.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\collectible_item_08.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\collectible_item_09.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_background.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_fly_button.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_fly_button_pressed.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_ground.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_menu_button.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_menu_button_pressed.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_st_button_off.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_st_button_off_pressed.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_st_button_on.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_st_button_pressed.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_topLeaves.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game2d_TreeTops.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\game_2d_frame_background.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sphere1.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sprite_00.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sprite_01.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sprite_02.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sprite_03.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sprite_04.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sprite_05.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sprite_06.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sprite_07.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sprite_08.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Game2D\sprite_09.png">
+      <Filter>Resource Files\images\Game2D</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\blue_area_button_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\blue_area_button_inactive.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\blue_dots_button_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\blue_dots_button_inactive.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\blue_line_button_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\blue_line_button_inactive.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\graph_background_bottom.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\graph_background_top.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\graph_menu_button.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\graph_menu_button_pressed.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\graph_toggle_button_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\graph_toggle_button_inactive.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\green_area_button_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\green_area_button_inactive.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\green_dots_button_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\green_dots_button_inactive.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\green_line_button_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\green_line_button_inactive.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\half_circle_toggle_button_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\half_circle_toggle_button_inactive.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\new_graph.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\new_graph_pressed.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\new_pie_chart.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\new_pie_chart_pressed.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_gradient_map.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_blue.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_blue_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_green.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_green_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_orange.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_orange_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_purple.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_purple_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_red.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_red_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_yellow.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_chart_legend_yellow_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_toggle_button_active.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\Graphs\pie_toggle_button_inactive.png">
+      <Filter>Resource Files\images\Graphs</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\alpha_ball_blue.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\alpha_ball_green.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\alpha_ball_red.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\flag_dnk_active.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\flag_dnk_inactive.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\flag_gbr_active.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\flag_gbr_inactive.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\flag_jpn_active.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\flag_jpn_inactive.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\flag_nld_active.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\flag_nld_inactive.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\flag_ukr_active.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\flag_ukr_inactive.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\menu_button.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\menu_button_active.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\paper_overlay.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_animation_button.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_animation_button_arrow_00.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_animation_button_arrow_01.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_animation_button_arrow_02.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_animation_button_arrow_03.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_animation_button_arrow_04.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_animation_button_arrow_05.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_animation_button_arrow_06.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_gradient_overlay.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_image_00.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_image_01.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_image_02.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_shadow_bottom.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_shadow_left.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_shadow_right.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\poster_shadow_top.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\images\ProductPresenter\product_presenter_background.png">
+      <Filter>Resource Files\images\ProductPresenter</Filter>
+    </None>
+    <None Include="..\..\assets\texts\texts.xlsx">
+      <Filter>Resource Files\texts</Filter>
+    </None>
+    <None Include="..\..\config\msvs\Application.props">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gui\include\gui\common\Carousel.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\CollapsibleMenu.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\DemoPresenter.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\DemoView.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\DemoViewInterface.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\DotIndicator.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\ExtendedZoomAnimationImage.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendHeap.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\SwipeContainer.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\Utils.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\ZoomAnimationBox.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\CircularProgress.hpp">
+      <Filter>Header Files\custom_controls_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\CustomControlsPresenter.hpp">
+      <Filter>Header Files\custom_controls_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\CustomControlsView.hpp">
+      <Filter>Header Files\custom_controls_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\DatePicker.hpp">
+      <Filter>Header Files\custom_controls_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\Gauge.hpp">
+      <Filter>Header Files\custom_controls_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\ThreeWayProgressBar.hpp">
+      <Filter>Header Files\custom_controls_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\ThreeWayProgressBarCircle.hpp">
+      <Filter>Header Files\custom_controls_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\VerticalSlideMenu.hpp">
+      <Filter>Header Files\custom_controls_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\WheelSelector.hpp">
+      <Filter>Header Files\custom_controls_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\custom_controls_screen\WheelSelectorExtra.hpp">
+      <Filter>Header Files\custom_controls_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\game2048_screen\Game2048Presenter.hpp">
+      <Filter>Header Files\game2048_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\game2048_screen\Game2048View.hpp">
+      <Filter>Header Files\game2048_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\game2048_screen\GameBoard.hpp">
+      <Filter>Header Files\game2048_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\game2D_screen\CollectibleItem.hpp">
+      <Filter>Header Files\game2D_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\game2D_screen\Game2DPresenter.hpp">
+      <Filter>Header Files\game2D_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\game2D_screen\Game2DView.hpp">
+      <Filter>Header Files\game2D_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\game2D_screen\ParallaxBackground.hpp">
+      <Filter>Header Files\game2D_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\AbstractGraph.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\Graph.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\GraphBelow.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\GraphDots.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\GraphLine.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\GraphPresenter.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\GraphView.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\LegendEntry.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\PainterColoredBitmap.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\PainterVerticalAlpha.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\graph_screen\PieChart.hpp">
+      <Filter>Header Files\graph_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\main_menu_screen\MainMenuAnimatingButtonsView.hpp">
+      <Filter>Header Files\main_menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\main_menu_screen\MainMenuCarouselView.hpp">
+      <Filter>Header Files\main_menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\main_menu_screen\MainMenuPresenter.hpp">
+      <Filter>Header Files\main_menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\main_menu_screen\MainMenuView.hpp">
+      <Filter>Header Files\main_menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\Model.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\Time.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\product_presenter_screen\FeaturePoster.hpp">
+      <Filter>Header Files\product_presenter_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\product_presenter_screen\ProductPresenterPresenter.hpp">
+      <Filter>Header Files\product_presenter_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\product_presenter_screen\ProductPresenterView.hpp">
+      <Filter>Header Files\product_presenter_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\driver\touch\SDLTouchController.hpp">
+      <Filter>Header Files\TouchGFX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\hal\simulator\sdl\HALSDL.hpp">
+      <Filter>Header Files\TouchGFX</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

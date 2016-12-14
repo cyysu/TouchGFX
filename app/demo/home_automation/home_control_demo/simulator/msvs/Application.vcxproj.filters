@@ -1,0 +1,931 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{221ED5AA-BFA7-40A1-AA3C-524B8323C5FD}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B4401F83-35B1-41E6-9434-753451071F07}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{C0557714-426D-4D83-AD4C-8CBA06853C88}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;ttf;otf;bdf;png;wav;xlsx;props;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\air_condition_screen">
+      <UniqueIdentifier>{AC2B99B0-0DD4-419A-99F5-1B933941E326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\appliances_screen">
+      <UniqueIdentifier>{1C880A64-3316-4A3D-908E-6C19CD6A9659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\blinds_screen">
+      <UniqueIdentifier>{5D525294-274C-4F7D-9482-A0FD10660B78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{3FE6CD2B-3303-4A3D-95DF-259CAB5020A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entertainment_screen">
+      <UniqueIdentifier>{6E68B9AC-AFDE-4D9E-8C51-381BC6447CD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\home_screen">
+      <UniqueIdentifier>{472A3724-539F-498D-9FF9-6683E2C2C016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lighting_screen">
+      <UniqueIdentifier>{FD03F9FB-6700-4D91-8E85-3D62B748905B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{6B7C6604-A1D9-4FBC-A635-B52B526255E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\security_screen">
+      <UniqueIdentifier>{E9470712-AC03-46F4-B4E7-9A62D7D782A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\settings_screen">
+      <UniqueIdentifier>{1A30C816-B6AF-424F-B0FC-9711814393F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\system">
+      <UniqueIdentifier>{1CC05479-CC18-421B-B689-F7DAFA2F929D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tiles">
+      <UniqueIdentifier>{AB1AB648-D577-4538-A14C-8F77303A7C3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TouchGFX">
+      <UniqueIdentifier>{48CCFAA3-548B-48FF-BFE2-1D21339B1D82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\air_condition_screen">
+      <UniqueIdentifier>{3B185D43-6760-4657-9350-54425973785B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\appliances_screen">
+      <UniqueIdentifier>{8CE0BA15-FA53-46DA-83B8-61B3BFD7693C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blinds_screen">
+      <UniqueIdentifier>{0871B78E-D2CD-4E89-9B6F-62ECCE4096EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{ED304AA5-3C51-4CF3-B8A7-CA0D8B81334E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entertainment_screen">
+      <UniqueIdentifier>{6F2F178F-EE04-4532-974F-A86FC52AE540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\home_screen">
+      <UniqueIdentifier>{2D86F9E4-4C46-495A-A8C7-9823443927B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lighting_screen">
+      <UniqueIdentifier>{D93B0DE9-D1D8-4361-95BD-2B1A8B254F85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{BA3240CB-2449-43EE-9C76-33D02D078110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\security_screen">
+      <UniqueIdentifier>{CD706FE6-CE21-43B3-90E2-96022101477B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\settings_screen">
+      <UniqueIdentifier>{921CE4D0-39A1-4B60-8BDE-DBA81A8DB4AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{1BA50997-FB2C-4AA8-912F-451F38D111D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tiles">
+      <UniqueIdentifier>{A3B35185-1FCE-49BE-AF50-C5F129B7AAFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\simulator">
+      <UniqueIdentifier>{A183E639-5BF2-4E7E-99F7-3BD8A59382D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TouchGFX">
+      <UniqueIdentifier>{E9F651EE-69EC-43C3-8D09-71EB7780029E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{3452F915-62E1-4A60-BE01-5CB3D41BC061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{95A9BA35-25B0-455F-A1BC-DE686D23CF6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\air_condition">
+      <UniqueIdentifier>{B216DEF3-BC79-4BFF-9306-B46E5AD6A13E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\blinds">
+      <UniqueIdentifier>{55BD9E9F-D426-4D03-B381-FB975CC35958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\entertainment">
+      <UniqueIdentifier>{AFBE5377-43E2-4759-8D5B-4BFEFD814312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\entertainment\covers_160">
+      <UniqueIdentifier>{D32D9306-A4D3-4105-9028-B7E9D6BE9048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\entertainment\covers_200">
+      <UniqueIdentifier>{6807AD64-7C6F-4863-9CE8-0F0910A960A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\entertainment\covers_240">
+      <UniqueIdentifier>{C189E405-51E0-457B-91E0-8725F79191A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\idle">
+      <UniqueIdentifier>{11DF2A70-5B23-4517-BC22-69D3F72E3972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\idle\covers_100">
+      <UniqueIdentifier>{32A91B22-F8C6-406C-9CD4-19DF1A9AD423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\idle\washing_ani">
+      <UniqueIdentifier>{DA8E63AA-7EF7-4DE0-97D9-0DD7D8A72A8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\idle\weather_tile">
+      <UniqueIdentifier>{8645E88B-C37D-4C89-9F80-77EE74C07BA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\lighting">
+      <UniqueIdentifier>{88DC2040-A0C1-425D-A522-42129EBA79D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\menu">
+      <UniqueIdentifier>{B8378F5E-D7B3-46AE-A5B1-8A6ED5F8600E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\security">
+      <UniqueIdentifier>{17607439-9DE8-4414-894E-8E839F31246E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\settings">
+      <UniqueIdentifier>{B2D9A783-696B-4AF2-A643-445DD1ADA309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\texts">
+      <UniqueIdentifier>{9AF6B442-45D4-4BD1-AEE2-136F529E2B21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gui\src\air_condition_screen\AirConditionPresenter.cpp">
+      <Filter>Source Files\air_condition_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\air_condition_screen\AirConditionView.cpp">
+      <Filter>Source Files\air_condition_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\appliances_screen\AppliancesPresenter.cpp">
+      <Filter>Source Files\appliances_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\appliances_screen\AppliancesView.cpp">
+      <Filter>Source Files\appliances_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\blinds_screen\BlindsPresenter.cpp">
+      <Filter>Source Files\blinds_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\blinds_screen\BlindsView.cpp">
+      <Filter>Source Files\blinds_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\BasePresenter.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\BlindsSelector.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\Constants.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\DotIndicator.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\FadeTransition.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\JogWheel.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\MainMenu.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\MenuButton.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\RoomSelector.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\SelectionButton.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\common\SwipeContainer.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\entertainment_screen\EntertainmentPresenter.cpp">
+      <Filter>Source Files\entertainment_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\entertainment_screen\EntertainmentView.cpp">
+      <Filter>Source Files\entertainment_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\home_screen\HomePresenter.cpp">
+      <Filter>Source Files\home_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\home_screen\HomeView.cpp">
+      <Filter>Source Files\home_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\lighting_screen\LightingPresenter.cpp">
+      <Filter>Source Files\lighting_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\lighting_screen\LightingView.cpp">
+      <Filter>Source Files\lighting_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\model\AlbumManager.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\model\Model.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\model\WashingMachine.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\security_screen\SecurityPresenter.cpp">
+      <Filter>Source Files\security_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\security_screen\SecurityRoomSelector.cpp">
+      <Filter>Source Files\security_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\security_screen\SecurityView.cpp">
+      <Filter>Source Files\security_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings_screen\SettingsPresenter.cpp">
+      <Filter>Source Files\settings_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings_screen\SettingsSlider.cpp">
+      <Filter>Source Files\settings_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings_screen\SettingsView.cpp">
+      <Filter>Source Files\settings_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\system\Clock.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\tiles\ClockTile.cpp">
+      <Filter>Source Files\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\tiles\ImageTile.cpp">
+      <Filter>Source Files\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\tiles\MusicPlayerTile.cpp">
+      <Filter>Source Files\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\tiles\TopTile.cpp">
+      <Filter>Source Files\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\tiles\WashingMachineTile.cpp">
+      <Filter>Source Files\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\tiles\WeatherTile.cpp">
+      <Filter>Source Files\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\tiles\WeatherTileDayElement.cpp">
+      <Filter>Source Files\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\simulator\main.cpp">
+      <Filter>Source Files\simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDLTouchController.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\HALSDL_icon.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+    <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl\OSWrappers.cpp">
+      <Filter>Source Files\TouchGFX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\assets\fonts\MavenPro-Medium.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\..\assets\fonts\MavenPro-Regular.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\..\assets\fonts\RobotoCondensed-Regular.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\air_con_headline.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\air_con_schedule_button.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\air_con_schedule_button_pressed.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\bed_room_selected.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\jogwheel_normal.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\jogwheel_pressed.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\kitchen_selected.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\living_room_selected.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\room1_selected.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\room2_selected.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\air_condition\room_layout.png">
+      <Filter>Resource Files\images\air_condition</Filter>
+    </None>
+    <None Include="..\..\assets\images\appliances_inactive.png">
+      <Filter>Resource Files\images</Filter>
+    </None>
+    <None Include="..\..\assets\images\background.png">
+      <Filter>Resource Files\images</Filter>
+    </None>
+    <None Include="..\..\assets\images\blinds\blind_selector_pressed.png">
+      <Filter>Resource Files\images\blinds</Filter>
+    </None>
+    <None Include="..\..\assets\images\blinds\blinds_headline.png">
+      <Filter>Resource Files\images\blinds</Filter>
+    </None>
+    <None Include="..\..\assets\images\blinds\blinds_schedule_button.png">
+      <Filter>Resource Files\images\blinds</Filter>
+    </None>
+    <None Include="..\..\assets\images\blinds\jogwheel_percentage.png">
+      <Filter>Resource Files\images\blinds</Filter>
+    </None>
+    <None Include="..\..\assets\images\blinds\room_layout_blinds.png">
+      <Filter>Resource Files\images\blinds</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\back_normal.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\back_pressed.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_0.png">
+      <Filter>Resource Files\images\entertainment\covers_160</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_1.png">
+      <Filter>Resource Files\images\entertainment\covers_160</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_2.png">
+      <Filter>Resource Files\images\entertainment\covers_160</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_3.png">
+      <Filter>Resource Files\images\entertainment\covers_160</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_4.png">
+      <Filter>Resource Files\images\entertainment\covers_160</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_5.png">
+      <Filter>Resource Files\images\entertainment\covers_160</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_6.png">
+      <Filter>Resource Files\images\entertainment\covers_160</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_7.png">
+      <Filter>Resource Files\images\entertainment\covers_160</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_8.png">
+      <Filter>Resource Files\images\entertainment\covers_160</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_160\cover160_9.png">
+      <Filter>Resource Files\images\entertainment\covers_160</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_0.png">
+      <Filter>Resource Files\images\entertainment\covers_200</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_1.png">
+      <Filter>Resource Files\images\entertainment\covers_200</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_2.png">
+      <Filter>Resource Files\images\entertainment\covers_200</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_3.png">
+      <Filter>Resource Files\images\entertainment\covers_200</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_4.png">
+      <Filter>Resource Files\images\entertainment\covers_200</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_5.png">
+      <Filter>Resource Files\images\entertainment\covers_200</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_6.png">
+      <Filter>Resource Files\images\entertainment\covers_200</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_7.png">
+      <Filter>Resource Files\images\entertainment\covers_200</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_8.png">
+      <Filter>Resource Files\images\entertainment\covers_200</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_200\cover200_9.png">
+      <Filter>Resource Files\images\entertainment\covers_200</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_0.png">
+      <Filter>Resource Files\images\entertainment\covers_240</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_1.png">
+      <Filter>Resource Files\images\entertainment\covers_240</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_2.png">
+      <Filter>Resource Files\images\entertainment\covers_240</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_3.png">
+      <Filter>Resource Files\images\entertainment\covers_240</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_4.png">
+      <Filter>Resource Files\images\entertainment\covers_240</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_5.png">
+      <Filter>Resource Files\images\entertainment\covers_240</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_6.png">
+      <Filter>Resource Files\images\entertainment\covers_240</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_7.png">
+      <Filter>Resource Files\images\entertainment\covers_240</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_8.png">
+      <Filter>Resource Files\images\entertainment\covers_240</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\covers_240\cover240_9.png">
+      <Filter>Resource Files\images\entertainment\covers_240</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\Entertainment_headline.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\next_normal.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\next_pressed.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\play_normal.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\play_pressed.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\shadow_large_left.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\shadow_large_right.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\shadow_small_left.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\shadow_small_right.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\entertainment\top_navi.png">
+      <Filter>Resource Files\images\entertainment</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\air_con_top.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\blinds_top.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\covers_100\cover100_0.png">
+      <Filter>Resource Files\images\idle\covers_100</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\covers_100\cover100_1.png">
+      <Filter>Resource Files\images\idle\covers_100</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\covers_100\cover100_2.png">
+      <Filter>Resource Files\images\idle\covers_100</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\covers_100\cover100_3.png">
+      <Filter>Resource Files\images\idle\covers_100</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\covers_100\cover100_4.png">
+      <Filter>Resource Files\images\idle\covers_100</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\covers_100\cover100_5.png">
+      <Filter>Resource Files\images\idle\covers_100</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\covers_100\cover100_6.png">
+      <Filter>Resource Files\images\idle\covers_100</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\covers_100\cover100_7.png">
+      <Filter>Resource Files\images\idle\covers_100</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\covers_100\cover100_8.png">
+      <Filter>Resource Files\images\idle\covers_100</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\covers_100\cover100_9.png">
+      <Filter>Resource Files\images\idle\covers_100</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\dishwasher_tile.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\dishwasher_tile_small.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\dot_active.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\dot_inactive.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\lighting_top.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\pause_button.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\pause_button_pressed.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\play_button.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\play_button_pressed.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\tumble_dryer_tile.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\tumble_dryer_tile_small.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\vert_line_buttom.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\vert_line_top.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_00.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_01.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_02.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_03.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_04.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_05.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_06.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_07.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_08.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_09.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_10.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_11.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_12.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_13.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_14.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_15.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_16.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_17.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_18.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_19.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\washing_ani\WashingProgress_20.png">
+      <Filter>Resource Files\images\idle\washing_ani</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\weather_bar.png">
+      <Filter>Resource Files\images\idle</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\weather_tile\icon_cloudy.png">
+      <Filter>Resource Files\images\idle\weather_tile</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\weather_tile\icon_lightning.png">
+      <Filter>Resource Files\images\idle\weather_tile</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\weather_tile\icon_rain.png">
+      <Filter>Resource Files\images\idle\weather_tile</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\weather_tile\icon_rain_sun.png">
+      <Filter>Resource Files\images\idle\weather_tile</Filter>
+    </None>
+    <None Include="..\..\assets\images\idle\weather_tile\icon_sun.png">
+      <Filter>Resource Files\images\idle\weather_tile</Filter>
+    </None>
+    <None Include="..\..\assets\images\lighting\lighting_headline.png">
+      <Filter>Resource Files\images\lighting</Filter>
+    </None>
+    <None Include="..\..\assets\images\lighting\lighting_schedule_button.png">
+      <Filter>Resource Files\images\lighting</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\aircon_hover.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\aircon_normal.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\aircon_pressed.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\appliances_hover.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\appliances_normal.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\appliances_pressed.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\blinds_hover.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\blinds_normal.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\blinds_pressed.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\entertainment_hover.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\entertainment_normal.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\entertainment_pressed.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\lighting_hover.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\lighting_normal.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\lighting_pressed.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\security_hover.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\security_normal.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\security_pressed.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\settings_hover.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\settings_normal.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\menu\settings_pressed.png">
+      <Filter>Resource Files\images\menu</Filter>
+    </None>
+    <None Include="..\..\assets\images\security\security_all_off_button.png">
+      <Filter>Resource Files\images\security</Filter>
+    </None>
+    <None Include="..\..\assets\images\security\security_all_on_button.png">
+      <Filter>Resource Files\images\security</Filter>
+    </None>
+    <None Include="..\..\assets\images\security\security_bed_room_selected.png">
+      <Filter>Resource Files\images\security</Filter>
+    </None>
+    <None Include="..\..\assets\images\security\security_headline.png">
+      <Filter>Resource Files\images\security</Filter>
+    </None>
+    <None Include="..\..\assets\images\security\security_kitchen_selected.png">
+      <Filter>Resource Files\images\security</Filter>
+    </None>
+    <None Include="..\..\assets\images\security\security_living_room_selected.png">
+      <Filter>Resource Files\images\security</Filter>
+    </None>
+    <None Include="..\..\assets\images\security\security_room1_selected.png">
+      <Filter>Resource Files\images\security</Filter>
+    </None>
+    <None Include="..\..\assets\images\security\security_room2_selected.png">
+      <Filter>Resource Files\images\security</Filter>
+    </None>
+    <None Include="..\..\assets\images\security\security_room_layout.png">
+      <Filter>Resource Files\images\security</Filter>
+    </None>
+    <None Include="..\..\assets\images\security\security_schedule_button.png">
+      <Filter>Resource Files\images\security</Filter>
+    </None>
+    <None Include="..\..\assets\images\settings\settings_background.png">
+      <Filter>Resource Files\images\settings</Filter>
+    </None>
+    <None Include="..\..\assets\images\settings\settings_background_small.png">
+      <Filter>Resource Files\images\settings</Filter>
+    </None>
+    <None Include="..\..\assets\images\settings\slider_button.png">
+      <Filter>Resource Files\images\settings</Filter>
+    </None>
+    <None Include="..\..\assets\texts\texts.xlsx">
+      <Filter>Resource Files\texts</Filter>
+    </None>
+    <None Include="..\..\config\msvs\Application.props">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gui\include\gui\air_condition_screen\AirConditionPresenter.hpp">
+      <Filter>Header Files\air_condition_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\air_condition_screen\AirConditionView.hpp">
+      <Filter>Header Files\air_condition_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\appliances_screen\AppliancesPresenter.hpp">
+      <Filter>Header Files\appliances_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\appliances_screen\AppliancesView.hpp">
+      <Filter>Header Files\appliances_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\blinds_screen\BlindsPresenter.hpp">
+      <Filter>Header Files\blinds_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\blinds_screen\BlindsView.hpp">
+      <Filter>Header Files\blinds_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\BasePresenter.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\BaseView.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\BaseViewInterface.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\BlindsSelector.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\Config.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\Constants.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\DotIndicator.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\FadeTransition.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\FontPosition.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\FrontendHeap.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\JogWheel.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\Layout.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\MainMenu.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\MenuButton.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\RoomSelector.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\SelectionButton.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\SwipeContainer.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\common\WashingMachineSimulator.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\entertainment_screen\EntertainmentPresenter.hpp">
+      <Filter>Header Files\entertainment_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\entertainment_screen\EntertainmentView.hpp">
+      <Filter>Header Files\entertainment_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\home_screen\HomePresenter.hpp">
+      <Filter>Header Files\home_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\home_screen\HomeView.hpp">
+      <Filter>Header Files\home_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\lighting_screen\LightingPresenter.hpp">
+      <Filter>Header Files\lighting_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\lighting_screen\LightingView.hpp">
+      <Filter>Header Files\lighting_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\Album.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\AlbumManager.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\Model.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\MusicPlayer.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\Room.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\TimeFormat.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\model\WashingMachine.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\security_screen\SecurityPresenter.hpp">
+      <Filter>Header Files\security_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\security_screen\SecurityRoomSelector.hpp">
+      <Filter>Header Files\security_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\security_screen\SecurityView.hpp">
+      <Filter>Header Files\security_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings_screen\SettingsPresenter.hpp">
+      <Filter>Header Files\settings_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings_screen\SettingsSlider.hpp">
+      <Filter>Header Files\settings_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings_screen\SettingsView.hpp">
+      <Filter>Header Files\settings_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\system\Clock.hpp">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\system\DateTime.hpp">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\tiles\BaseTile.hpp">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\tiles\ClockTile.hpp">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\tiles\ImageTile.hpp">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\tiles\MusicPlayerTile.hpp">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\tiles\TemperatureTile.hpp">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\tiles\TopTile.hpp">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\tiles\WashingMachineTile.hpp">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\tiles\WeatherTile.hpp">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\tiles\WeatherTileDayElement.hpp">
+      <Filter>Header Files\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\driver\touch\SDLTouchController.hpp">
+      <Filter>Header Files\TouchGFX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(TouchGFXReleasePath)\framework\include\platform\hal\simulator\sdl\HALSDL.hpp">
+      <Filter>Header Files\TouchGFX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(TouchGFXReleasePath)\config\TouchGFX.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

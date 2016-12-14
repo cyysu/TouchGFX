@@ -1,0 +1,28 @@
+var classtouchgfx_1_1_d_m_a___interface =
+[
+    [ "~DMA_Interface", "classtouchgfx_1_1_d_m_a___interface_afeb5ddbb2c11c8ba668571f8403312e1.html#afeb5ddbb2c11c8ba668571f8403312e1", null ],
+    [ "DMA_Interface", "classtouchgfx_1_1_d_m_a___interface_a12a7bbb6651b789d40147ff580775d3d.html#a12a7bbb6651b789d40147ff580775d3d", null ],
+    [ "addToQueue", "classtouchgfx_1_1_d_m_a___interface_a1229e7a444e351cc0e452fb1f7235396.html#a1229e7a444e351cc0e452fb1f7235396", null ],
+    [ "disableAlpha", "classtouchgfx_1_1_d_m_a___interface_afc4467cb246086d885c03211a9a9bf39.html#afc4467cb246086d885c03211a9a9bf39", null ],
+    [ "enableAlpha", "classtouchgfx_1_1_d_m_a___interface_af853904be473fa33f51d39a04891968b.html#af853904be473fa33f51d39a04891968b", null ],
+    [ "enableCopyWithTransparentPixels", "classtouchgfx_1_1_d_m_a___interface_aaf1a9946f5c44e67dcc58e03d8be9bce.html#aaf1a9946f5c44e67dcc58e03d8be9bce", null ],
+    [ "execute", "classtouchgfx_1_1_d_m_a___interface_a61af3e60b94ae3e748f6fbac1e794af7.html#a61af3e60b94ae3e748f6fbac1e794af7", null ],
+    [ "executeCompleted", "classtouchgfx_1_1_d_m_a___interface_a95c4209c9ac3116ca5e7a22fae4d58df.html#a95c4209c9ac3116ca5e7a22fae4d58df", null ],
+    [ "flush", "classtouchgfx_1_1_d_m_a___interface_adac116554b543b7c4228c018a85882f5.html#adac116554b543b7c4228c018a85882f5", null ],
+    [ "getAllowed", "classtouchgfx_1_1_d_m_a___interface_a28a6281ed93f1d6f6de40aeba51c7fa6.html#a28a6281ed93f1d6f6de40aeba51c7fa6", null ],
+    [ "getBlitCaps", "classtouchgfx_1_1_d_m_a___interface_abc9ec84a5552ac0dc1799e6a360e6359.html#abc9ec84a5552ac0dc1799e6a360e6359", null ],
+    [ "initialize", "classtouchgfx_1_1_d_m_a___interface_a25a40b6614565f755233080a384c35f1.html#a25a40b6614565f755233080a384c35f1", null ],
+    [ "isDmaQueueEmpty", "classtouchgfx_1_1_d_m_a___interface_a1a98f41cae552e17b4a32ea78ef85e01.html#a1a98f41cae552e17b4a32ea78ef85e01", null ],
+    [ "isDmaQueueFull", "classtouchgfx_1_1_d_m_a___interface_ae449ecb70817657f685e4d36ebef2b7b.html#ae449ecb70817657f685e4d36ebef2b7b", null ],
+    [ "isDMARunning", "classtouchgfx_1_1_d_m_a___interface_ad4e4133a18755f9a4bfdb95a5196e289.html#ad4e4133a18755f9a4bfdb95a5196e289", null ],
+    [ "seedExecution", "classtouchgfx_1_1_d_m_a___interface_a6906773ecc51cf039a9817dca7e221b3.html#a6906773ecc51cf039a9817dca7e221b3", null ],
+    [ "setAllowed", "classtouchgfx_1_1_d_m_a___interface_a10eee3ceeb935bbcf24177d6c23c2146.html#a10eee3ceeb935bbcf24177d6c23c2146", null ],
+    [ "setupDataCopy", "classtouchgfx_1_1_d_m_a___interface_a77baa864b8064fa3076a9b5eafab7292.html#a77baa864b8064fa3076a9b5eafab7292", null ],
+    [ "setupDataFill", "classtouchgfx_1_1_d_m_a___interface_ac4b88d8ee4355a278d1b11562e7e90e8.html#ac4b88d8ee4355a278d1b11562e7e90e8", null ],
+    [ "signalDMAInterrupt", "classtouchgfx_1_1_d_m_a___interface_a5dab78149cab1a1866ec71d2ea857188.html#a5dab78149cab1a1866ec71d2ea857188", null ],
+    [ "start", "classtouchgfx_1_1_d_m_a___interface_a60de64d75454385b23995437f1d72669.html#a60de64d75454385b23995437f1d72669", null ],
+    [ "waitForFrameBufferSemaphore", "classtouchgfx_1_1_d_m_a___interface_a1466eefad848e76740822723f8e87797.html#a1466eefad848e76740822723f8e87797", null ],
+    [ "isAllowed", "classtouchgfx_1_1_d_m_a___interface.html#a83a8e29cdf2f3a9068d6f6ca93f1562d", null ],
+    [ "isRunning", "classtouchgfx_1_1_d_m_a___interface.html#a35e1fbda907c4c69651e7ffed1543106", null ],
+    [ "queue", "classtouchgfx_1_1_d_m_a___interface.html#a33f1c078645d901608bf6ad3be2bb4dc", null ]
+];
